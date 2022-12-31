@@ -1,0 +1,305 @@
+
+Suggested text BhubaneswarConversation opened. 1 unread message. 
+
+Skip to content
+Using RV College of Engineering, Bangalore, India. Mail with screen readers
+
+2 of 7,055
+(no subject)
+Inbox
+
+S BHUVANA <sbhuvana.te19@rvce.edu.in>
+10:15 PM (4 minutes ago)
+to me
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+{
+    margin=0;
+    padding=0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.active {
+    color: whitesmoke;
+    text-decoration: dotted;
+    font-weight: bold;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+header {
+    width: 100vw;
+    height: 100vw;
+    background-image: url("final.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 5vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: rgb(193, 53, 104);
+    margin: 06px auto;
+    border-radius: 5px;
+}
+
+.ctn {
+    padding: 5px 25px;
+    background: rgb(101, 101, 228);
+    border-radius: 50px;
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*events*/
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(78, 38, 126);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events .row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 4vmin;
+    color: rgb(164, 14, 14);
+    margin: 20px auto;
+    align-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: rgb(18, 4, 15);
+    padding: 0px 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.events .ccn {
+    margin-top: 30px;
+}
+
+.explore {
+    width: 100%;
+    height: 100vh;
+    height: 80vh;
+    background-image: url('dham.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content {
+    width: 60%;
+    padding: 50px;
+    color: rgb(14, 1, 1);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.explore-content h1 {
+    font-size: 4vmin;
+    margin: 50px;
+    align-items: flex-end;
+}
+
+.explore-content p {
+    color: rgb(4, 4, 40);
+    font-size: 2vmin;
+    font-style: oblique;
+}
+
+.explore-content .ctn {
+    padding: 5px 25px;
+    background: rgb(14, 14, 23);
+    color: whitesmoke;
+    align-items: flex-end;
+    margin-left: 5px;
+}
+
+.explore-content .line {
+    width: 150px;
+    height: 4px;
+    background: rgb(16, 5, 9);
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 30px 80px;
+    margin: 0;
+    background: rgb(117, 117, 213);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.footer p {
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+
+/*mobile device*/
+
+@media only screen and (max-width:850px) {
+    .menu-btn {
+        display: block;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: rgb(130, 70, 170);
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
+    /*events*/
+    .row {
+        flex-direction: column;
+    }
+    .row .col {
+        margin: 20px auto;
+    }
+    .col img {
+        max-width: 90%;
+    }
+    /*explore*/
+    .explore-content {
+        width: 100%;
+    }
+    .tours .col {
+        width: 100%;
+        ;
+    }
+    .image-gallery img {
+        width: 90%;
+    }
+    .footer {
+        padding: 10px;
+    }
+}
+
+
+/*animations*/
+
+img {
+    transition: transform .3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.ctn:hover {
+    background: whitesmoke;
+    color: #000;
+    box-shadow: 2px 2px 5px black;
+}
+
+li:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+Page 2 of 7
